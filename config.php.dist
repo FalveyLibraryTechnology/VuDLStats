@@ -1,0 +1,10 @@
+<?php
+
+// PID of top-level collection in Fedora 3
+define('TOP_LEVEL_PID', 'vudl:3');
+
+// Path to file containing Piwik/Matomo stats
+define ('PIWIK_STATS_CSV', 'piwik.csv');
+
+// URL for performing Solr queries
+define('SOLR_QUERY_URL', 'http://localhost:8983/solr/core/select');
